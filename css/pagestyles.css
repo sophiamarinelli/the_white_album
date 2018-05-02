@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'caslongraphiqueefregular';
+    src: url('caslongraphiqueef-webfont.woff2') format('woff2'),
+         url('caslongraphiqueef-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'big_caslonmedium';
+    src: url('big_caslon_medium-webfont.woff2') format('woff2'),
+         url('big_caslon_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	overflow-y: hidden;
+}
+
+.title {
+    font-family: "caslongraphiqueefregular";
+    font-size: 300px;
+    color: black;
+    transform: rotate(-20deg);
+    padding: 0;
+
+}
+
+.bodytext {
+    font-family:'big_caslonmedium';
+    font-size: 14pt;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    -moz-column-count: 2;
+   -webkit-column-count: 2;
+   column-count: 2;
+   height: 100vh;
+   column-gap: 100vh;
+}

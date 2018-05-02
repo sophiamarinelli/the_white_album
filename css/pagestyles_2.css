@@ -1,0 +1,214 @@
+
+@font-face {
+    font-family: 'caslongraphiqueefregular';
+    src: url('caslongraphiqueef-webfont.woff2') format('woff2'),
+         url('caslongraphiqueef-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'big_caslonmedium';
+    src: url('big_caslon_medium-webfont.woff2') format('woff2'),
+         url('big_caslon_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+	height: 100%;
+    overflow-y: hidden;
+}
+
+.title {
+    font-family: "caslongraphiqueefregular";
+    margin: auto;
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    font-size: 300px;
+    color: black;
+    transform: rotate(-20deg);
+    padding: 0;
+
+}
+
+.bodytext {
+    font-family:'big_caslonmedium';
+    font-size: 14pt;
+    position: relative;
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: -.01em;
+    -moz-column-count: 2;
+   -webkit-column-count: 2;
+   column-count: 2;
+   height: 100%;
+   column-gap: 80vh;
+}
+
+.wrapper {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.one {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.surround {
+    height: 100%;
+    overflow-x: scroll;
+    position: relative;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border: 1px solid black; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+}
+
+.italic {
+    font-style: oblique;
+}
+
+#FICApop {
+    z-index: 500;  
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: rotate(2deg);
+    display: none;
+}
+
+#latimespop {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    display: none;
+}
+
+.popuptext {
+    font-family: "caslongraphiqueefregular";
+    font-size: 80px;
+    position: absolute;
+    z-index: 500;
+}
+
+#fiveyearspop {
+    z-index: 500;  
+    left: 0px;
+    bottom: 0px;
+    transform: rotate(-12deg);
+    display: none;
+}
+
+#priestpop {
+    position: absolute;
+    top: 15%;
+    width: 400px;
+    left: 11%;
+    display: none; 
+}
+
+#californiapop {
+
+    z-index: 500;  
+    left: 200%;
+    top: 10%;
+    transform: rotate(-12deg);
+    display: none;
+}
+
+#laipop {
+    position: absolute;
+    top: 2%;
+    width: 450px;
+    left: 180%;
+    display: none;
+}
+
+#orchidpop {
+    position: absolute;
+    top: 43%;
+    width: 450px;
+    left: 160%;
+    display: none;
+}
+
+#georgepop {
+    position: absolute;
+    top: 5%;
+    width: 240px;
+    left: 155%;
+    display: none;
+}
+
+#libidopop {
+    top: 0;
+    left: 394%;
+    transform: rotate(9deg);
+/*    display: none;*/
+}
+
+#outpatientpop {
+    top: 31%;
+    left: 502%;
+    transform: rotate(-22deg);
+}
+
+#conflictpop {
+    top: 60%;
+    left: 453%;
+}
+
+#anatomicalpop {
+    position: absolute;
+    top: 30%;
+    left: 410%;
+    width: 600px;
+}
+
+#elavilpop{
+    position: absolute;
+    top: 60%;
+    left: 315%;
+}
+
+#tatpop {
+    position: absolute;
+    width: 500px;
+    top: 2%;
+    left: 450%;
+}
+
+#joanpop {
+    position: absolute;
+    top: 19px;
+    left: 517%;
+}
+
+#hospitalpop {
+    position: absolute;
+    top: 14%;
+    width: 400px;
+    left: 488%;
+}
